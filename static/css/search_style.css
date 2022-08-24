@@ -1,0 +1,18 @@
+.content {
+    font-family: "PT Serif Caption", serif;
+}
+
+hr {
+    margin: 32px 0;
+}
+
+div {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+
+}

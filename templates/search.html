@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/search_style.css">
+</head>
+<body>
+<div>
+    <a class="back" href="#" onclick="history.back();">Назад</a> <br>
+    <h2>
+        <p>Посты по запросу: <br>
+            "{{ value }}"
+        </p>
+    </h2>
+    {% for i in found_posts %}
+
+        <img src="{{ i['pic'] }}" alt="Nothing"> <br>
+        <a class="content">{{ i['content'] }}</a>
+
+        <hr>
+    {% endfor %}
+</div>
+</body>
+</html>
